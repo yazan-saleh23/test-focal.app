@@ -1,0 +1,15 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#root{
+  width: 100%;
+}
+ @media screen and (max-width : 992px){
+  #root{
+    width: min-content;
+  }
+  
+ }

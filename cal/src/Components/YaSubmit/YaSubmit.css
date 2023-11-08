@@ -1,0 +1,31 @@
+.ya-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.color-red{
+    color: red;
+    font-size: 15px;
+    border: none;
+    height: 48px;
+    background-color: rgba(252, 16, 16, 0);
+}
+.color-red:hover{
+    color: black;
+    background-color: red;
+    border-radius: 10px;
+}
+.color-white{
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    width: 165px;
+    height: 48px;
+    margin-left: 20px;
+}
+.color-white:hover{
+    color: black;
+    background-color: orangered;
+}

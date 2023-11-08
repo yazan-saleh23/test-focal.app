@@ -1,0 +1,16 @@
+.row{
+    display: flex;
+    align-items: end;
+}
+label {
+    font-size: 19px;
+    font-weight: 500;
+}
+.col-lg-6{
+    width: min-content;
+}
+@media screen and (max-width: 992px){
+    label{
+        font-size: 18px;
+    }
+}

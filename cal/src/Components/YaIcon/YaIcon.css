@@ -1,0 +1,20 @@
+.yaIcon{
+    background-color: #D9D9D9;
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    padding: 4px;
+    margin: 2rem 0 0 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.yaIcon:hover{
+    color: black;
+    background-color: orange;
+}
+@media screen and (max-width: 992px){
+    .yaIcon{
+        margin: 0;
+    }
+}

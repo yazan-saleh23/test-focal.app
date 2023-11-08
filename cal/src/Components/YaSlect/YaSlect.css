@@ -1,0 +1,12 @@
+
+select{
+    border: none;
+    width: 25vw;
+    height: 23px;
+    border-bottom: 1px solid black;
+}
+@media screen and (max-width : 992px){
+    select{
+        width: 35vw;
+    }
+}

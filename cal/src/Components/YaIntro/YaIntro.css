@@ -1,0 +1,18 @@
+.ya-intro h1{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.ya-intro p{
+    font-size: 19px;
+}
+.ya-intro{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+.text-intro{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,37 @@
+.ya-inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.ya-sender-information{
+    width: max-content;
+    box-shadow:inset 2px 3px rgb(167 158 158);
+    border-radius: 15px;
+    padding: 0 4rem;
+    margin: auto;
+}
+.ya-sender-information .text h2 {
+    font-size: 27px;
+    font-weight: 700;
+}
+.ya-sender-information .text p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.text{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+#d-flex{
+    display: flex;
+}
+@media screen and (max-width:992px) {
+    .ya-sender-information{
+        padding: 0 2rem;
+    }
+    input{
+        font-size: x-small;
+    }
+}
